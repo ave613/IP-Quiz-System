@@ -1,1 +1,23 @@
-/test/
+# Ignore build files
+/build/
+out/
+bin/
+
+# Ignore NetBeans-specific files
+nbproject/private/
+
+# Ignore IDE settings
+*.iml
+.idea/
+*.ipr
+*.iws
+.vscode/
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore database credentials if any (optional, for safety)
+db.properties
