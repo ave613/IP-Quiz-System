@@ -2,7 +2,6 @@
 developed to help students practice for the ITPEC IP Exam 
 
 ## Features
-
 ### Two User Types:
 
 - **Admin:**
@@ -31,6 +30,17 @@ developed to help students practice for the ITPEC IP Exam
 ### Libraries Needed:
 - `commons-dbutils-1.8.1-bin.zip`
 - `mysql-connector-java-5.1.43.zip`
+
+## How to Run
+
+1. Clone or download the project.
+2. Import the project into NetBeans.
+3. Add the following libraries to the project:
+commons-dbutils-1.8.1
+mysql-connector-java-5.1.43
+4. Set up your MySQL database using the SQL queries provided below.
+5. Configure database connection settings if required.
+6. Run the project!
 
 ## Database Setup
 
@@ -61,14 +71,3 @@ CREATE TABLE student (
     marks INT(5),
     isSubmitted BOOLEAN DEFAULT FALSE
 );
-
-## How to Run
-
-1. Clone or download the project.
-2. Import the project into NetBeans.
-3. Add the following libraries to the project:
-commons-dbutils-1.8.1
-mysql-connector-java-5.1.43
-4. Set up your MySQL database using the SQL queries above.
-5. Configure database connection settings if required.
-6. Run the project!
